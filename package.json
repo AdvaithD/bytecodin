@@ -1,5 +1,5 @@
 {
-  "name": "@advaithd/contracts",
+  "name": "bytecodin",
   "devDependencies": {
     "hardhat": "^2.1.2",
     "@nomiclabs/hardhat-ethers": "^2.0.2",
@@ -24,6 +24,6 @@
   },
   "scripts": {
     "mainnet:fork": "npx hardhat node --fork $ALCHEMY_HTTP",
-    "localhost:deploy": "npx hardhat run --network localhost scripts/deploy.ts",
+    "localhost:deploy": "npx hardhat run --network localhost scripts/test.ts"
   }
 }
